@@ -48,27 +48,27 @@ $(document).ready(function () {
             });
 
             while (s < arr.length) {
-                console.log('This is club ' + locationCount);
-                console.log('Address:' + arr[s]);
+                // console.log('This is club ' + locationCount);
+                // console.log('Address:' + arr[s]);
 
                 var lat = s + 1;
-                console.log('Lat:' + arr[lat]);
+                // console.log('Lat:' + arr[lat]);
                 lat = arr[lat];
 
                 var long = s + 2;
-                console.log('Long:' + arr[long]);
+                // console.log('Long:' + arr[long]);
                 long = arr[long];
 
                 var name = s + 3;
-                console.log('Name:' + arr[name]);
+                // console.log('Name:' + arr[name]);
                 var name = arr[name];
 
                 var town = s + 4;
-                console.log('Town:' + arr[town]);
+                // console.log('Town:' + arr[town]);
                 var town = arr[town];
 
                 var websiteURL = s + 5;
-                console.log('Website:' + arr[websiteURL]);
+                // console.log('Website:' + arr[websiteURL]);
                 var websiteURL = arr[websiteURL];
 
                 makeMark(lat, long, name, town, websiteURL, infowindow, markers);
