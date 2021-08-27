@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Freestyle BC Club Map</title>
+    <!-- jquery to pull data in data.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/wcw4mia.css" />
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeWnfBtMeUSbD-log3vy-hPMhXCRoBZ4w&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="counter">
+            <div class="card">
+                <div class="info-caption counter">
+                    <div class="counter-value" data-count="1300" style="color:#2D87CC">0</div> <i
+                        class="fa fa-plus"></i>
+                    <p>Members</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="counter-value" data-count="12" style="color:#2D87CC">0</div>
+                <p>Clubs</p>
+            </div>
+    </div>
+</body>
+
+</html>
