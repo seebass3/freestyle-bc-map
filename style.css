@@ -13,7 +13,13 @@
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
 #map {
-    height: 100vh;
+    height: 50vh;
+}
+
+@media only screen and (min-width: 840px) {
+    #map {
+        height: 80vh;
+    }
 }
 
 /* Optional: Makes the sample page fill the window. */
